@@ -108,20 +108,19 @@ aws cloudformation validate-template --template-body file://template.yaml
 aws cloudformation deploy \
   --template-file template.yaml \
   --stack-name desafio-devops-02 \
-  --capabilities CAPABILITY_IAM
+  --capabilities CAPABILITY_NAMED_IAM
 ```
 
 3. Envie um arquivo para o bucket:
 
 ```bash
-aws s3 cp arquivo.txt s3://<bucket-name>/
+aws s3 cp arquivo.txt s3://desafio-devops-02-<ACCOUNT_ID>-<REGION>/
 ```
 
 4.  Veja os logs da Lambda:
 
 ```bash
-aws logs describe-log-groups
-aws logs tail /aws/lambda/<nome-da-funcao> --follow
+aws logs tail /aws/lambda/desafio-devops-02-lambda-<ACCOUNT_ID>-<REGION> --follow
 ```
 
 # 🧹 Como destruir a infraestrutura
