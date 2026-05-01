@@ -100,19 +100,15 @@ aws cloudformation delete-stack --stack-name desafio-devops-02-iniciante
 
 Se você concluiu este desafio e revisou a solução, o próximo passo é avançar para:
 
-➡️ **Desafio DevOps #02 — Nível Intermediário** *(em breve)*  
+➡️ [**Desafio DevOps #02 — Nível Intermediário**](https://github.com/bfeliano/desafio-devops-02-cfn-s3-lambda-intermediario)  
 
 Neste próximo nível, você irá evoluir esta mesma infraestrutura, aplicando práticas mais avançadas de CloudFormation, incluindo:
 
 - Parameters
 - Mappings
-- Conditions
-- Configurações de ambiente (dev/prod)
 - Variáveis de ambiente para a Lambda
 - Políticas IAM mais refinadas
-- **Integração opcional com SNS para envio de notificações**
-- Estrutura mais profissional de CloudFormation
-
+- Integração com SNS para envio de notificações
 
 Se quiser discutir esta solução ou compartilhar sua própria implementação, participe da comunidade no Discord!  
 Link: <https://discord.gg/RgcC7YytVZ>

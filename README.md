@@ -71,8 +71,8 @@ Este desafio faz parte de uma trilha contínua de aprendizado DevOps.
 
 Depois de concluir este nível, você poderá avançar para:
 
-➡️ **Desafio DevOps #02 — Nível Intermediário** *(em breve)*  
-Nele você irá aprimorar esta mesma infraestrutura adicionando **Parameters**, **Mappings**, **Conditions**, IAM mais detalhado e boas práticas avançadas de CloudFormation.
+➡️ [**Desafio DevOps #02 — Nível Intermediário**](https://github.com/bfeliano/desafio-devops-02-cfn-s3-lambda-intermediario)  
+Nele você irá aprimorar esta mesma infraestrutura adicionando **Parameters**, **Mappings**, Integração com **SNS**, **IAM** mais detalhado e boas práticas avançadas de CloudFormation.
 
 ## 🤝 Contribuições
 
